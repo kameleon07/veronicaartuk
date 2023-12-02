@@ -32,10 +32,6 @@ a {
   top: 0;
   right: 220px;
 }
-.upper-left-corner {
-  top: 0;
-  left: -100px;
-}
 
 a:hover {
   color: #000;
