@@ -1,3 +1,145 @@
+
+(function() {
+  "use strict";
+
+  /**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+  /**
+   * Easy event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
+    }
+  }
+
+  /**
+   * Easy on scroll event listener 
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
+
+  /**
+   * burgerMenu
+   */
+  const burgerMenu = select('.burger')
+  on('click', '.burger', function(e) {
+    burgerMenu.classList.toggle('active');
+  })
+
+  /**
+   * Porfolio isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let portfolioContainer = select('#portfolio-grid');
+    if (portfolioContainer) {
+      let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.item',
+      });
+
+      let portfolioFilters = select('#filters a', true);
+
+      on('click', '#filters a', function(e) {
+        e.preventDefault();
+        portfolioFilters.forEach(function(el) {
+          el.classList.remove('active');
+        });
+        this.classList.add('active');
+
+        portfolioIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
+   * Testimonials slider
+   */
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+  /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+
+})()
+
+window.addEventListener('load', () => {
+  let portfolioContainer = select('#portfolio-grid');
+  if (portfolioContainer) {
+    let portfolioIsotope = new Isotope(portfolioContainer, {
+      itemSelector: '.item',
+    });
+
+    let allFilters = select('#filters a', true);
+    let saleFilters = select('#sale-filters a', true);
+
+    let handleFilterClick = function(e) {
+      e.preventDefault();
+      allFilters.forEach(function (el) {
+        el.classList.remove('active');
+      });
+      saleFilters.forEach(function (el) {
+        el.classList.remove('active');
+      });
+
+      this.classList.add('active');
+      portfolioIsotope.arrange({
+        filter: this.getAttribute('data-filter')
+      });
+      portfolioIsotope.on('arrangeComplete', function () {
+        AOS.refresh()
+      });
+    };
+
+    on('click', '#filters a', handleFilterClick, true);
+    on('click', '#sale-filters a', handleFilterClick, true);
+  }
+});
+
+
+
 const numberOfItems = 1000; // Set the desired number of items
 const itemsContainer = document.getElementById("images");
 
@@ -618,7 +760,6 @@ const itemList = [
   }
   // Add more items as needed
 ];
-
 const subImageGroups = {};
 
 for (const item of itemList) {
@@ -630,33 +771,39 @@ for (const item of itemList) {
   }
 }
 
-for (let i = 0; i < numberOfItems; i++) {
-  if (!itemList[i].isSubImage) {
-    const newItem = document.createElement("div");
-    newItem.className = `item ${itemList[i].category2} col-sm-6 col-md-4 col-lg-4 mb-4`;
+// Sort the itemList based on sale status: On Sale first, then Sold, then Off Sale
+const sortedItemList = itemList.sort((a, b) => {
+  const saleOrder = { "On Sale": 1, "Sold": 2, "Off Sale": 3 };
+  return saleOrder[a.sale] - saleOrder[b.sale];
+});
 
-    const imgSrc = `assets/img/${itemList[i].imgName}`;
+for (let i = 0; i < numberOfItems; i++) {
+  if (!sortedItemList[i].isSubImage) {
+    const newItem = document.createElement("div");
+    newItem.className = `item ${sortedItemList[i].category2} col-sm-6 col-md-4 col-lg-4 mb-4`;
+
+    const imgSrc = `assets/img/${sortedItemList[i].imgName}`;
 
     newItem.innerHTML = `
       <div>
         <div class="price-tag-2">
-          ${itemList[i].sale}
+          ${sortedItemList[i].sale}
         </div>
-        <a data-fancybox="group-${itemList[i].imageGroup}" data-caption="${itemList[i].name}<br>${itemList[i].category}<br>${itemList[i].description}<br>Price: ${itemList[i].price}" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0;">
+        <a data-fancybox="group-${sortedItemList[i].imageGroup}" data-caption="${sortedItemList[i].name}<br>${sortedItemList[i].category}<br>${sortedItemList[i].description}<br>Price: ${sortedItemList[i].price}" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0;">
           <div class="work-info">
-            <h3>${itemList[i].name}</h3>
-            <span>${itemList[i].category}</span>
+            <h3>${sortedItemList[i].name}</h3>
+            <span>${sortedItemList[i].category}</span>
           </div>
           <img class="img-fluid rounded" src="${imgSrc}">
           <div class="price-tag">
-            ${itemList[i].price}
+            ${sortedItemList[i].price}
           </div>
         </a>
       </div>
     `;
 
-    if (subImageGroups[itemList[i].imageGroup]) {
-      for (const subImage of subImageGroups[itemList[i].imageGroup]) {
+    if (subImageGroups[sortedItemList[i].imageGroup]) {
+      for (const subImage of subImageGroups[sortedItemList[i].imageGroup]) {
         const subImgSrc = `assets/img/${subImage.imgName}`;
         newItem.innerHTML += `
           <a data-fancybox="group-${subImage.imageGroup}" data-caption="${subImage.name}<br>${subImage.category}<br>${subImage.description}<br>Price: ${subImage.price}" href="${subImgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; display: none;">
