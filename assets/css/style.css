@@ -601,7 +601,7 @@ h6,
 }
 
 .gallery-test{
-  background: rgb(113 115 119 / 25%);
+  /* background: rgb(113 115 119 / 25%);*/
   border-radius: 6px;
   width: fit-content;
   margin: auto;
