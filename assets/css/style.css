@@ -591,3 +591,19 @@ h6,
   border-radius: 3px;
   left: -6px;
 }
+
+.link-text{
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery-test{
+  background: rgb(113 115 119 / 25%);
+  border-radius: 6px;
+  width: fit-content;
+  margin: auto;
+  padding: 2px 36px 2px 36px;
+}

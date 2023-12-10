@@ -193,7 +193,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 60x50cm 24x20''",
-    price: "£150",
+    price: "£149",
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 2,
@@ -204,7 +204,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 60x50cm 24x20''",
-    price: "£150",
+    price: "£149",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 2,
@@ -215,7 +215,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 60x50cm 24x20''",
-    price: "£150",
+    price: "£149",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 2,
@@ -226,7 +226,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a canvas board - Handmade - Original - 60x50cm 24x20''",
-    price: "£150",
+    price: "£149",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 2,
@@ -325,7 +325,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£100",
+    price: "£79",
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 5,
@@ -336,7 +336,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£100",
+    price: "£79",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -347,7 +347,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£100",
+    price: "£79",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -358,7 +358,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£100",
+    price: "£79",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -369,7 +369,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£100",
+    price: "£79",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -380,7 +380,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£100",
+    price: "£79",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -533,7 +533,7 @@ const itemList = [
     name: "Orange Bouquet",
     category: "Flowers",
     category2: "flowers",
-    description: "Oil paiting on a stretched canvas - Handmade - Replica - 50x40cm 20X14.8''",
+    description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20X14.8''",
     price: "Disclosed",
     sale: "Off Sale",
     isSubImage: false,
@@ -544,7 +544,7 @@ const itemList = [
     name: "Orange Bouquet",
     category: "Flowers",
     category2: "flowers",
-    description: "Oil paiting on a stretched canvas - Handmade - Replica - 50x40cm 20X14.8''",
+    description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20X14.8''",
     price: "Disclosed",
     sale: "Off Sale",
     isSubImage: true,
@@ -707,9 +707,9 @@ const itemList = [
     name: "Night Time Harbour",
     category: "Coastal",
     category2: "coastal",
-    description: "Oil paiting on a stretched canvas - Handmade - Original - 50x50cm  20x20''",
-    price: "£100",
-    sale: "Sold",
+    description: "Oil paiting on a stretched canvas - Handmade - Replica - 50x50cm  20x20''",
+    price: "Disclosed",
+    sale: "Off Sale",
     isSubImage: false,
     imageGroup: 30,
     imgName: "img_30.jpg" 
@@ -753,10 +753,21 @@ const itemList = [
     category2: "flowers",
      description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
     price: "£59",
-    sale: "Sold",
+    sale: "On Sale",
     isSubImage: false,
     imageGroup: 34,
     imgName: "img_34.jpg" 
+  },
+  {
+    name: "Wedding Bouquet",
+    category: "Flowers",
+    category2: "flowers",
+     description: "Oil paiting on a stretched canvas - Handmade - Original - 80x50cm, 24x15''",
+    price: "£100",
+    sale: "Sold",
+    isSubImage: false,
+    imageGroup: 35,
+    imgName: "img_35.jpg" 
   }
   // Add more items as needed
 ];
@@ -789,7 +800,7 @@ for (let i = 0; i < numberOfItems; i++) {
         <div class="price-tag-2">
           ${sortedItemList[i].sale}
         </div>
-        <a data-fancybox="group-${sortedItemList[i].imageGroup}" data-caption="${sortedItemList[i].name}<br>${sortedItemList[i].category}<br>${sortedItemList[i].description}<br>Price: ${sortedItemList[i].price}" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0;">
+        <a data-fancybox="group-${sortedItemList[i].imageGroup}" data-caption="<div class='gallery-test'><div>${sortedItemList[i].name}<br>${sortedItemList[i].category}<br>${sortedItemList[i].description}<br>Price: ${sortedItemList[i].price}</div></div>" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0;">
           <div class="work-info">
             <h3>${sortedItemList[i].name}</h3>
             <span>${sortedItemList[i].category}</span>
@@ -806,7 +817,7 @@ for (let i = 0; i < numberOfItems; i++) {
       for (const subImage of subImageGroups[sortedItemList[i].imageGroup]) {
         const subImgSrc = `assets/img/${subImage.imgName}`;
         newItem.innerHTML += `
-          <a data-fancybox="group-${subImage.imageGroup}" data-caption="${subImage.name}<br>${subImage.category}<br>${subImage.description}<br>Price: ${subImage.price}" href="${subImgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; display: none;">
+          <a data-fancybox="group-${subImage.imageGroup}" data-caption="<div class='gallery-test'><div>${subImage.name}<br>${subImage.category}<br>${subImage.description}<br>Price: ${subImage.price}</div></div>" href="${subImgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; display: none;">
             <img class="img-fluid rounded" src="${subImgSrc}">
           </a>
         `;
@@ -816,3 +827,8 @@ for (let i = 0; i < numberOfItems; i++) {
     itemsContainer.appendChild(newItem);
   }
 }
+
+
+
+
+//<div class='col-sm-6 social text-md-end'><a href='https://www.facebook.com/veronicaartuk'><span class='bi bi-facebook'></span></a><a href='https://www.pinterest.co.uk/veronicaartuk'><span class='bi bi-pinterest'></span></a> <a href='https://www.ebay.co.uk/usr/veronicaartuk2023'><div class='link-text'>eBay</div></a> <a href='#'><div class='link-text'>Etsy</div></a></div>
