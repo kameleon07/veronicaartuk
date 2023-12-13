@@ -1,14 +1,4 @@
-/**
-* Template Name: MyPortfolio
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: 'Nunito', sans-serif;
   padding: 12px;
@@ -352,6 +342,7 @@ h6,
 /* Custom Navmenu */
 .custom-navmenu {
   background: #0d1e2d;
+  border-radius: 6px;
 }
 
 .custom-navmenu .custom-menu,
@@ -568,28 +559,28 @@ h6,
   height: auto;
 }
 
-/* Add this style for the price tag */
-.price-tag {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* Adjust the color and opacity as needed */
-  text-align: center;
-  font-weight: bold;
-  color: #333; /* Adjust the color as needed */
+
+.buy-links {
+  width: 100%; /* Set the width to match the containing div */
+  display: flex;
+  justify-content: space-around;
 }
 
-.price-tag-2{
-  position: absolute;
-  top: -4px;
-  z-index: 5;
-  background:#737f8f;
-  color: white;
-  padding: 9px;
-  border-radius: 3px;
-  left: -6px;
+.buy-link {
+  width: 100%; /* Set the width to match the containing div */
+  padding: 10px; /* Adjust padding as needed */
+  background-color: rgba(131, 131, 131, 0.7);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform for text enlargement */
+
+}
+
+.buy-link:hover {
+  background-color: #aed1ed;
+  color: #FFF;
+  transform: scale(1.05); /* Enlarge the text slightly on hover */
 }
 
 .link-text{
@@ -606,4 +597,28 @@ h6,
   width: fit-content;
   margin: auto;
   padding: 2px 36px 2px 36px;
+}
+
+.price-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.price {
+  font-size: 1.8em; /* Increase the font size for better visibility */
+  font-weight: bold;
+  color: #838383; /* Change the color to a modern and nice color (e.g., red) */
+  padding: 12px;
+}
+
+.space {
+  width:6%;
+}
+
+.padding-16{
+  padding: 16px;
 }

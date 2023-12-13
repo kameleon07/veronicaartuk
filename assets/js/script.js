@@ -153,7 +153,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 1,
-    imgName: "img_1.jpg" 
+    imgName: "img_1.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },  
   {
     name: "Blue Rhododendron's",
@@ -164,7 +166,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 1,
-    imgName: "img_1_1.jpg" 
+    imgName: "img_1_1.jpg" ,
+    linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Blue Rhododendron's",
@@ -175,7 +179,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 1,
-    imgName: "img_1_2.jpg" 
+    imgName: "img_1_2.jpg" ,
+    linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Blue Rhododendron's",
@@ -186,7 +192,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 1,
-    imgName: "img_1_3.jpg" 
+    imgName: "img_1_3.jpg" ,
+    linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Savana Tea Pot",
@@ -197,7 +205,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 2,
-    imgName: "img_2.jpg" 
+    imgName: "img_2.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204566576921?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Savana Tea Pot",
@@ -208,7 +218,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 2,
-    imgName: "img_2_1.jpg" 
+    imgName: "img_2_1.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204566576921?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Savana Tea Pot",
@@ -219,7 +231,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 2,
-    imgName: "img_2_2.jpg" 
+    imgName: "img_2_2.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204566576921?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Savana Tea Pot",
@@ -230,7 +244,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 2,
-    imgName: "img_2_3.jpg" 
+    imgName: "img_2_3.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204566576921?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Red Wine",
@@ -241,7 +257,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 3,
-    imgName: "img_3.jpg" 
+    imgName: "img_3.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564211112?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Red Wine",
@@ -252,7 +270,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 3,
-    imgName: "img_3_1.jpg" 
+    imgName: "img_3_1.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564211112?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Red Wine",
@@ -263,7 +283,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 3,
-    imgName: "img_3_2.jpg" 
+    imgName: "img_3_2.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564211112?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Navy Blue Marine",
@@ -274,7 +296,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 4,
-    imgName: "img_4.jpg" 
+    imgName: "img_4.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },
   {
     name: "Navy Blue Marine",
@@ -285,7 +309,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: true,
     imageGroup: 4,
-    imgName: "img_4_1.jpg" 
+    imgName: "img_4_1.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },
   {
     name: "Navy Blue Marine",
@@ -296,7 +322,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: true,
     imageGroup: 4,
-    imgName: "img_4_2.jpg" 
+    imgName: "img_4_2.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },
   {
     name: "Navy Blue Marine",
@@ -307,7 +335,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: true,
     imageGroup: 4,
-    imgName: "img_4_3.jpg" 
+    imgName: "img_4_3.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },
   {
     name: "Navy Blue Marine",
@@ -318,7 +348,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: true,
     imageGroup: 4,
-    imgName: "img_4_4.jpg" 
+    imgName: "img_4_4.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },
   {
     name: "Red Roses",
@@ -329,7 +361,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 5,
-    imgName: "img_5.jpg" 
+    imgName: "img_5.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Red Roses",
@@ -340,7 +374,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
-    imgName: "img_5_1.jpg" 
+    imgName: "img_5_1.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Red Roses",
@@ -351,7 +387,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
-    imgName: "img_5_2.jpg" 
+    imgName: "img_5_2.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: ""
   },
   {
     name: "Red Roses",
@@ -362,7 +400,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
-    imgName: "img_5_3.jpg" 
+    imgName: "img_5_3.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: "" 
   },
   {
     name: "Red Roses",
@@ -373,7 +413,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
-    imgName: "img_5_4.jpg" 
+    imgName: "img_5_4.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: "" 
   },
   {
     name: "Red Roses",
@@ -384,7 +426,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
-    imgName: "img_5_5.jpg" 
+    imgName: "img_5_5.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: "" 
   },
   {
     name: "Coastal Beauat - Still Life",
@@ -395,7 +439,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 6,
-    imgName: "img_6.jpg" 
+    imgName: "img_6.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   { 
     name: "Jean Paul II",
@@ -406,7 +452,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 7,
-    imgName: "img_7.jpg" 
+    imgName: "img_7.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Jean Paul II",
@@ -417,7 +465,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: true,
     imageGroup: 7,
-    imgName: "img_7_1.jpg" 
+    imgName: "img_7_1.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },  
   {
     name: "Self-Portrait",
@@ -428,7 +478,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 8,
-    imgName: "img_8.jpg" 
+    imgName: "img_8.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Degas - Balerine",
@@ -439,7 +491,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 9,
-    imgName: "img_9.jpg" 
+    imgName: "img_9.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Michael Jackson",
@@ -450,7 +504,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 10,
-    imgName: "img_10.jpg" 
+    imgName: "img_10.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Tamara-Lipnicka",
@@ -461,7 +517,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 11,
-    imgName: "img_11.jpg" 
+    imgName: "img_11.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Tamara-Lipnicka",
@@ -472,7 +530,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: true,
     imageGroup: 11,
-    imgName: "img_11_1.jpg" 
+    imgName: "img_11_1.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "The Mandarin Duck",
@@ -483,7 +543,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 12,
-    imgName: "img_12.jpg" 
+    imgName: "img_12.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Brown Horse",
@@ -494,7 +556,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 13,
-    imgName: "img_13.jpg" 
+    imgName: "img_13.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Lion & Giraffe",
@@ -505,7 +569,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 14,
-    imgName: "img_14.jpg" 
+    imgName: "img_14.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Lion & Giraffe",
@@ -516,7 +582,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: true,
     imageGroup: 14,
-    imgName: "img_14_1.jpg" 
+    imgName: "img_14_1.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Parrots",
@@ -527,7 +595,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 15,
-    imgName: "img_15.jpg" 
+    imgName: "img_15.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Orange Bouquet",
@@ -538,7 +608,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 16,
-    imgName: "img_16.jpg" 
+    imgName: "img_16.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Orange Bouquet",
@@ -549,7 +621,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: true,
     imageGroup: 16,
-    imgName: "img_16_1.jpg" 
+    imgName: "img_16_1.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Sunflowers - Van Gogh",
@@ -560,7 +634,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 17,
-    imgName: "img_17.jpg" 
+    imgName: "img_17.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Red & White Bouquet",
@@ -571,7 +647,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 18,
-    imgName: "img_18.jpg" 
+    imgName: "img_18.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Carnation Flowers - Stefan Lucian",
@@ -582,7 +660,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 19,
-    imgName: "img_19.jpg" 
+    imgName: "img_19.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Red Poppies",
@@ -593,7 +673,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 20,
-    imgName: "img_20.jpg" 
+    imgName: "img_20.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },
   {
     name: "Anthurium Bouquet",
@@ -604,7 +686,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 21,
-    imgName: "img_21.jpg" 
+    imgName: "img_21.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Daffodils",
@@ -615,7 +699,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 22,
-    imgName: "img_22.jpg" 
+    imgName: "img_22.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Magnolias",
@@ -626,7 +712,9 @@ const itemList = [
     sale: "Off Sale", 
     isSubImage: false,
     imageGroup: 23,
-    imgName: "img_23.jpg" 
+    imgName: "img_23.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Japanese Magnolias",
@@ -637,7 +725,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 24,
-    imgName: "img_24.jpg" 
+    imgName: "img_24.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Japanese Magnolias",
@@ -648,7 +738,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: true,
     imageGroup: 24,
-    imgName: "img_24_1.jpg" 
+    imgName: "img_24_1.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },{
     name: "Yellow Bouquet",
     category: "Flowers",
@@ -658,7 +750,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 25,
-    imgName: "img_25.jpg" 
+    imgName: "img_25.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },{
     name: "Red Roses",
     category: "Flowers",
@@ -668,7 +762,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 26,
-    imgName: "img_26.jpg" 
+    imgName: "img_26.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Liliac Flori White & Purple",
@@ -679,7 +775,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 27,
-    imgName: "img_27.jpg" 
+    imgName: "img_27.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Liliac Flori Pink & Purple",
@@ -690,7 +788,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 28,
-    imgName: "img_28.jpg" 
+    imgName: "img_28.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Pink Tulips",
@@ -701,7 +801,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 29,
-    imgName: "img_29.jpg" 
+    imgName: "img_29.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Night Time Harbour",
@@ -712,7 +814,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 30,
-    imgName: "img_30.jpg" 
+    imgName: "img_30.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Moszna Castle",
@@ -723,7 +827,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 31,
-    imgName: "img_31.jpg" 
+    imgName: "img_31.jpg",
+    linkEbay: "",
+    linkEtsy: ""
   },
   { 
     name: "Toscany Land",
@@ -734,7 +840,9 @@ const itemList = [
     sale: "Off Sale",
     isSubImage: false,
     imageGroup: 32,
-    imgName: "img_32.jpg" 
+    imgName: "img_32.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "White Ship",
@@ -745,7 +853,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 33,
-    imgName: "img_33.jpg" 
+    imgName: "img_33.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   },
   {
     name: "Pink & Yellow Roses",
@@ -756,7 +866,9 @@ const itemList = [
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 34,
-    imgName: "img_34.jpg" 
+    imgName: "img_34.jpg",
+    linkEbay: "https://www.ebay.co.uk/itm/204564245060?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
+    linkEtsy: "" 
   },
   {
     name: "Wedding Bouquet",
@@ -767,7 +879,9 @@ const itemList = [
     sale: "Sold",
     isSubImage: false,
     imageGroup: 35,
-    imgName: "img_35.jpg" 
+    imgName: "img_35.jpg",
+    linkEbay: "",
+    linkEtsy: "" 
   }
   // Add more items as needed
 ];
@@ -788,6 +902,7 @@ const sortedItemList = itemList.sort((a, b) => {
   return saleOrder[a.sale] - saleOrder[b.sale];
 });
 
+
 for (let i = 0; i < numberOfItems; i++) {
   if (!sortedItemList[i].isSubImage) {
     const newItem = document.createElement("div");
@@ -796,24 +911,25 @@ for (let i = 0; i < numberOfItems; i++) {
     const imgSrc = `assets/img/${sortedItemList[i].imgName}`;
 
     newItem.innerHTML = `
-      <div>
+      <div class="item-wrapper">
+        <a data-fancybox="group-${sortedItemList[i].imageGroup}" data-caption="<div class='gallery-test'><div>${sortedItemList[i].name}<br>${sortedItemList[i].category}<br>${sortedItemList[i].description}<br>${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? 'Price' : 'Price'}: ${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? sortedItemList[i].price : 'N/A'}</div></div>" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; position: relative;">
+          <img class="img-fluid rounded" src="${imgSrc}">
+            <div class="work-info">
+              <h3>${sortedItemList[i].name}</h3>
+              <span>${sortedItemList[i].category}</span>
+            </div>
+          </img>
+        </a>
         ${sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale" ? `
-          <div class="price-tag-2">
-            ${sortedItemList[i].sale}
+          <div class="price-footer">
+            <div class="price">${sortedItemList[i].price}</div>
+            <div class="buy-links">
+              <a href="${sortedItemList[i].linkEbay}" target="_blank" class="buy-link">eBay</a>
+              <div class='space'></div>
+              <a href="${sortedItemList[i].linkEtsy}" target="_blank" class="buy-link">Etsy</a>
+            </div>
           </div>
         ` : ''}
-        <a data-fancybox="group-${sortedItemList[i].imageGroup}" data-caption="<div class='gallery-test'><div>${sortedItemList[i].name}<br>${sortedItemList[i].category}<br>${sortedItemList[i].description}<br>${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? 'Price' : 'Price'}: ${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? sortedItemList[i].price : 'N/A'}</div></div>" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0;">
-          <div class="work-info">
-            <h3>${sortedItemList[i].name}</h3>
-            <span>${sortedItemList[i].category}</span>
-          </div>
-          <img class="img-fluid rounded" src="${imgSrc}">
-          ${sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale" ? `
-            <div class="price-tag">
-              ${sortedItemList[i].price}
-            </div>
-          ` : ''}
-        </a>
       </div>
     `;
 
@@ -821,7 +937,7 @@ for (let i = 0; i < numberOfItems; i++) {
       for (const subImage of subImageGroups[sortedItemList[i].imageGroup]) {
         const subImgSrc = `assets/img/${subImage.imgName}`;
         newItem.innerHTML += `
-          <a data-fancybox="group-${subImage.imageGroup}" data-caption="<div class='gallery-test'><div>${subImage.name}<br>${subImage.category}<br>${subImage.description}<br>${(subImage.sale !== "Sold" && subImage.sale !== "Off Sale") ? 'Price' : 'Price'}: ${(subImage.sale !== "Sold" && subImage.sale !== "Off Sale") ? subImage.price : 'N/A'}</div></div>" href="${subImgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; display: none;">
+          <a data-fancybox="group-${subImage.imageGroup}" data-caption="<div class='gallery-test'><div>${subImage.name}<br>${subImage.category}<br>${subImage.description}<br>${(subImage.sale !== "Sold" && subImage.sale !== "Off Sale") ? 'Price' : 'Price'}: ${(subImage.sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? subImage.price : 'N/A'}</div></div>" href="${subImgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; display: none;">
             <img class="img-fluid rounded" src="${subImgSrc}">
           </a>
         `;
@@ -831,6 +947,8 @@ for (let i = 0; i < numberOfItems; i++) {
     itemsContainer.appendChild(newItem);
   }
 }
+
+
 
 
 
