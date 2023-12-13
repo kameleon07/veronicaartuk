@@ -912,7 +912,7 @@ for (let i = 0; i < numberOfItems; i++) {
 
     newItem.innerHTML = `
       <div class="item-wrapper">
-        <a data-fancybox="group-${sortedItemList[i].imageGroup}" data-caption="<div class='gallery-test'><div>${sortedItemList[i].name}<br>${sortedItemList[i].category}<br>${sortedItemList[i].description}<br>${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? 'Price' : 'Price'}: ${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? sortedItemList[i].price : 'N/A'}</div></div>" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; position: relative;">
+        <a data-fancybox="group-${sortedItemList[i].imageGroup}" data-caption="<div class='gallery-test'><div>${sortedItemList[i].name}<br>${sortedItemList[i].description}<br>${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? 'Price' : 'Price'}: ${(sortedItemList[i].sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? sortedItemList[i].price : 'Sold'}</div></div>" href="${imgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; position: relative;">
           <img class="img-fluid rounded" src="${imgSrc}">
             <div class="work-info">
               <h3>${sortedItemList[i].name}</h3>
@@ -937,7 +937,7 @@ for (let i = 0; i < numberOfItems; i++) {
       for (const subImage of subImageGroups[sortedItemList[i].imageGroup]) {
         const subImgSrc = `assets/img/${subImage.imgName}`;
         newItem.innerHTML += `
-          <a data-fancybox="group-${subImage.imageGroup}" data-caption="<div class='gallery-test'><div>${subImage.name}<br>${subImage.category}<br>${subImage.description}<br>${(subImage.sale !== "Sold" && subImage.sale !== "Off Sale") ? 'Price' : 'Price'}: ${(subImage.sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? subImage.price : 'N/A'}</div></div>" href="${subImgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; display: none;">
+          <a data-fancybox="group-${subImage.imageGroup}" data-caption="<div class='gallery-test'><div>${subImage.name}<br>${subImage.description}<br>${(subImage.sale !== "Sold" && subImage.sale !== "Off Sale") ? 'Price' : 'Price'}: ${(subImage.sale !== "Sold" && sortedItemList[i].sale !== "Off Sale") ? subImage.price : 'Sold'}</div></div>" href="${subImgSrc}" class="item-wrap fancybox rounded" style="box-shadow: 6px 6px 17px 0px #C0C0C0; display: none;">
             <img class="img-fluid rounded" src="${subImgSrc}">
           </a>
         `;
