@@ -431,7 +431,7 @@ const itemList = [
     linkEtsy: "" 
   },
   {
-    name: "Coastal Beauat - Still Life",
+    name: "Coastal Beauty - Still Life",
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 60x50cm 24x20''",
