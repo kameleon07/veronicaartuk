@@ -155,7 +155,7 @@ const itemList = [
     imageGroup: 1,
     imgName: "img_1.jpg",
     linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: ""
+    linkEtsy: "https://etsy.com/uk/listing/1610781322/handmade-oil-painting-blue-rhododendron?click_key=9c2d94fc6b8c21ac19c0fe0527b335bb82723d57%3A1610781322&click_sum=1c8856e0&ref=shop_home_feat_3"
   },  
   {
     name: "Blue Rhododendron's",
@@ -168,7 +168,7 @@ const itemList = [
     imageGroup: 1,
     imgName: "img_1_1.jpg" ,
     linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: ""
+    linkEtsy: "https://etsy.com/uk/listing/1610781322/handmade-oil-painting-blue-rhododendron?click_key=9c2d94fc6b8c21ac19c0fe0527b335bb82723d57%3A1610781322&click_sum=1c8856e0&ref=shop_home_feat_3"
   },
   {
     name: "Blue Rhododendron's",
@@ -181,7 +181,7 @@ const itemList = [
     imageGroup: 1,
     imgName: "img_1_2.jpg" ,
     linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: ""
+    linkEtsy: "https://etsy.com/uk/listing/1610781322/handmade-oil-painting-blue-rhododendron?click_key=9c2d94fc6b8c21ac19c0fe0527b335bb82723d57%3A1610781322&click_sum=1c8856e0&ref=shop_home_feat_3"
   },
   {
     name: "Blue Rhododendron's",
@@ -194,7 +194,7 @@ const itemList = [
     imageGroup: 1,
     imgName: "img_1_3.jpg" ,
     linkEbay: "https://www.ebay.co.uk/itm/204565575552?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: ""
+    linkEtsy: "https://etsy.com/uk/listing/1610781322/handmade-oil-painting-blue-rhododendron?click_key=9c2d94fc6b8c21ac19c0fe0527b335bb82723d57%3A1610781322&click_sum=1c8856e0&ref=shop_home_feat_3"
   },
   {
     name: "Savana Tea Pot",
@@ -292,65 +292,65 @@ const itemList = [
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "Disclosed",
-    sale: "Off Sale",
+    price: "£149",
+    sale: "On Sale",
     isSubImage: false,
     imageGroup: 4,
     imgName: "img_4.jpg",
     linkEbay: "",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1612267049/copy-marine-life-ship-unknown-artist?click_key=b2d767ae0268f747361b38d087ced8a770387c1d%3A1612267049&click_sum=00af4a5f&ref=shop_home_feat_2"
   },
   {
     name: "Navy Blue Marine",
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "Disclosed",
-    sale: "Off Sale",
+    price: "£149",
+    sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
     imgName: "img_4_1.jpg",
     linkEbay: "",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1612267049/copy-marine-life-ship-unknown-artist?click_key=b2d767ae0268f747361b38d087ced8a770387c1d%3A1612267049&click_sum=00af4a5f&ref=shop_home_feat_2"
   },
   {
     name: "Navy Blue Marine",
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "Disclosed",
-    sale: "Off Sale",
+    price: "£149",
+    sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
     imgName: "img_4_2.jpg",
     linkEbay: "",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1612267049/copy-marine-life-ship-unknown-artist?click_key=b2d767ae0268f747361b38d087ced8a770387c1d%3A1612267049&click_sum=00af4a5f&ref=shop_home_feat_2"
   },
   {
     name: "Navy Blue Marine",
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "Disclosed",
-    sale: "Off Sale",
+    price: "£149",
+    sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
     imgName: "img_4_3.jpg",
     linkEbay: "",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1612267049/copy-marine-life-ship-unknown-artist?click_key=b2d767ae0268f747361b38d087ced8a770387c1d%3A1612267049&click_sum=00af4a5f&ref=shop_home_feat_2"
   },
   {
     name: "Navy Blue Marine",
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "Disclosed",
-    sale: "Off Sale",
+    price: "£149",
+    sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
     imgName: "img_4_4.jpg",
     linkEbay: "",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1612267049/copy-marine-life-ship-unknown-artist?click_key=b2d767ae0268f747361b38d087ced8a770387c1d%3A1612267049&click_sum=00af4a5f&ref=shop_home_feat_2"
   },
   {
     name: "Red Roses",
@@ -363,7 +363,7 @@ const itemList = [
     imageGroup: 5,
     imgName: "img_5.jpg",
     linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1598112734/veronicaartuk-red-roses-51x41cm?click_key=af189e32fe23fffe246facccdeac591fbae42631%3A1598112734&click_sum=96ae6551&ref=shop_home_feat_1"
   },
   {
     name: "Red Roses",
@@ -376,7 +376,7 @@ const itemList = [
     imageGroup: 5,
     imgName: "img_5_1.jpg",
     linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1598112734/veronicaartuk-red-roses-51x41cm?click_key=af189e32fe23fffe246facccdeac591fbae42631%3A1598112734&click_sum=96ae6551&ref=shop_home_feat_1"
   },
   {
     name: "Red Roses",
@@ -389,7 +389,7 @@ const itemList = [
     imageGroup: 5,
     imgName: "img_5_2.jpg",
     linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: ""
+    linkEtsy: "https://www.etsy.com/uk/listing/1598112734/veronicaartuk-red-roses-51x41cm?click_key=af189e32fe23fffe246facccdeac591fbae42631%3A1598112734&click_sum=96ae6551&ref=shop_home_feat_1"
   },
   {
     name: "Red Roses",
@@ -402,7 +402,7 @@ const itemList = [
     imageGroup: 5,
     imgName: "img_5_3.jpg",
     linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: "" 
+    linkEtsy: "https://www.etsy.com/uk/listing/1598112734/veronicaartuk-red-roses-51x41cm?click_key=af189e32fe23fffe246facccdeac591fbae42631%3A1598112734&click_sum=96ae6551&ref=shop_home_feat_1"
   },
   {
     name: "Red Roses",
@@ -415,7 +415,7 @@ const itemList = [
     imageGroup: 5,
     imgName: "img_5_4.jpg",
     linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: "" 
+    linkEtsy: "https://www.etsy.com/uk/listing/1598112734/veronicaartuk-red-roses-51x41cm?click_key=af189e32fe23fffe246facccdeac591fbae42631%3A1598112734&click_sum=96ae6551&ref=shop_home_feat_1"
   },
   {
     name: "Red Roses",
@@ -428,7 +428,7 @@ const itemList = [
     imageGroup: 5,
     imgName: "img_5_5.jpg",
     linkEbay: "https://www.ebay.co.uk/itm/204564195668?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=nkrbma6csic&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY",
-    linkEtsy: "" 
+    linkEtsy: "https://www.etsy.com/uk/listing/1598112734/veronicaartuk-red-roses-51x41cm?click_key=af189e32fe23fffe246facccdeac591fbae42631%3A1598112734&click_sum=96ae6551&ref=shop_home_feat_1"
   },
   {
     name: "Coastal Beauty - Still Life",
