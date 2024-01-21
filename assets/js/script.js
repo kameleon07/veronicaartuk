@@ -149,7 +149,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on stretched canvas - Handmade - Original - 60x50cm 23.6x20.6''",
-    price: "£100",
+    price: "£119",
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 1,
@@ -162,7 +162,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on stretched canvas - Handmade - Original - 60x50cm 23.6x20.6''",
-    price: "£100",
+    price: "£119",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 1,
@@ -175,7 +175,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on stretched canvas - Handmade - Original - 60x50cm 23.6x20.6''",
-    price: "£100",
+    price: "£119",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 1,
@@ -188,7 +188,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on stretched canvas - Handmade - Original - 60x50cm 23.6x20.6''",
-    price: "£100",
+    price: "£119",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 1,
@@ -253,7 +253,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£39",
+    price: "£69",
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 3,
@@ -266,7 +266,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£39",
+    price: "£69",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 3,
@@ -279,7 +279,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£39",
+    price: "£69",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 3,
@@ -292,7 +292,7 @@ const itemList = [
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "£89",
+    price: "£140",
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 4,
@@ -305,7 +305,7 @@ const itemList = [
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "£89",
+    price: "£140",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
@@ -318,7 +318,7 @@ const itemList = [
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "£89",
+    price: "£140",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
@@ -331,7 +331,7 @@ const itemList = [
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "£89",
+    price: "£140",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
@@ -344,7 +344,7 @@ const itemList = [
     category: "Coastal",
     category2: "coastal",
     description: "Oil paiting on a stretched canvas - Handmade - Replica - 100x50cm 39.5x20''",
-    price: "£89",
+    price: "£140",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 4,
@@ -357,7 +357,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£79",
+    price: "£100",
     sale: "On Sale",
     isSubImage: false,
     imageGroup: 5,
@@ -370,7 +370,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£79",
+    price: "£100",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -383,7 +383,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£79",
+    price: "£100",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -396,7 +396,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£79",
+    price: "£100",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -409,7 +409,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£79",
+    price: "£100",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -422,7 +422,7 @@ const itemList = [
     category: "Flowers",
     category2: "flowers",
     description: "Oil paiting on a stretched canvas - Handmade - Original - 50x40cm 20.6x14.8''",
-    price: "£79",
+    price: "£100",
     sale: "On Sale",
     isSubImage: true,
     imageGroup: 5,
@@ -924,9 +924,7 @@ for (let i = 0; i < numberOfItems; i++) {
           <div class="price-footer">
             <div class="price">${sortedItemList[i].price}</div>
             <div class="buy-links">
-              <a href="${sortedItemList[i].linkEbay}" target="_blank" class="buy-link">eBay</a>
-              <div class='space'></div>
-              <a href="${sortedItemList[i].linkEtsy}" target="_blank" class="buy-link">Etsy</a>
+              <a style="width:70%" href="https://www.facebook.com/wentworthantiques/" target="_blank" class="buy-link">Available here</a>
             </div>
           </div>
         ` : ''}
@@ -952,5 +950,15 @@ for (let i = 0; i < numberOfItems; i++) {
 
 
 
+// <div class="price-footer">
+//     <div class="price">${sortedItemList[i].price}</div>
+//      //ADD BUY LINKS DIV HERE TO GET THE BUTTONS
+// </div>
+
+{/* <div class="buy-links">
+<a href="${sortedItemList[i].linkEbay}" target="_blank" class="buy-link">eBay</a>
+<div class='space'></div>
+<a href="${sortedItemList[i].linkEtsy}" target="_blank" class="buy-link">Etsy</a>
+</div> */}
 
 //<div class='col-sm-6 social text-md-end'><a href='https://www.facebook.com/veronicaartuk'><span class='bi bi-facebook'></span></a><a href='https://www.pinterest.co.uk/veronicaartuk'><span class='bi bi-pinterest'></span></a> <a href='https://www.ebay.co.uk/usr/veronicaartuk2023'><div class='link-text'>eBay</div></a> <a href='#'><div class='link-text'>Etsy</div></a></div>
